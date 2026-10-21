@@ -1,0 +1,13 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+SQLAlchemy>=2.0
+pydantic[email]>=2.9
+pydantic-settings>=2.6
+psycopg[binary]>=3.2
+bcrypt>=4.2
+pyjwt>=2.9
+python-multipart>=0.0.9
+minio>=7.2
+web3>=7.0
+# Phase 8 — document text extraction (PDF text layer + scanned-PDF page rendering)
+pymupdf>=1.24

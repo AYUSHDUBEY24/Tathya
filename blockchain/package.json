@@ -1,0 +1,17 @@
+{
+  "name": "sih26190-blockchain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hardhat project for the SIH26190 blockchain integrity-anchor layer (DocumentIntegrity contract).",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
